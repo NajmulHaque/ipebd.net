@@ -1,0 +1,300 @@
+/*css  of online live chat start from here*/
+    .live_msg{
+      bottom: 0;
+      right: 0;
+      position: fixed;
+      border: 1px solid #99ccff;
+      right: 20px;
+      border-radius: 4px;
+      z-index: 5;
+    }
+    .msg_btn{
+      background:  rgb(46, 141, 199);
+      border-radius: 2px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 47px;
+      padding-right: 47px;
+      color: #fff;
+      font-weight: 500;
+      cursor: pointer;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+     .msg_btn:hover{
+       -webkit-transform: scale(1.1,1.1);
+       -webkit-transition-duration: .1s; 
+    }
+    .msg_box{
+      padding: 10px;
+      background-color: white;
+      height: 350px;
+    }
+    .msg_box input{
+      margin: 8px;
+      padding: 5px;
+      height: 30px;
+      width: 250px;
+      outline: none;
+    }
+     .msg_box p{
+      width: 300px;
+      text-align:left;
+    }
+    .msg_box p img{
+      width: 300px;
+      height: 40px;
+    }
+    .msg_box button{
+      padding: 9px;
+      border-radius: 5px;
+      border: 1px solid #fff;
+      float: right;
+      text-align: center;
+      color: #fff;
+      background: rgb(46, 141, 199);
+      margin: 10px;  
+      cursor: pointer;
+      outline: none;
+    }
+/*css of online live chat end here*/
+/*css of side connector start from here*/
+  .side_connector{
+    position:fixed; 
+    top:200px;
+    right: 0;
+    z-index: 4;
+  }
+  .connectors{
+    background-color:;
+     padding-left:;
+  }
+  .connectors li{
+    margin-top: 1.5px;
+  }
+
+  .connectors li a img:hover {
+       cursor: pointer;
+       -webkit-transform: rotate(360deg);
+       -webkit-transition-duration: .6s;
+  }
+/*css of side connector end here*/
+
+
+
+/*navbar css start from here */
+.navbar-brand img { 
+        margin-top:0px; 
+        margin-left:0px; 
+      }
+.navbar-brand {
+         padding:0px;
+       }
+
+.header_image { 
+  margin-top:-70px; 
+  float:left;
+}
+
+/*navbar css end here*/
+
+
+
+/*css of 1st carousel slide start from here*/
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+.carousel{
+    margin-top:-20px;
+}
+.fade-carousel {
+    position: relative;
+    height: 65vh;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: #080d15;
+    opacity: 1;
+}
+.fade-carousel .carousel-indicators  li {
+    margin: 0 2px;
+    background-color: #ff9f08;
+    border-color: #f39c12;
+    opacity:;
+}
+.fade-carousel .carousel-indicators  li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+.fade-carousel .carousel-inner .item {
+    height: 65vh;
+}
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; }    
+}
+.hero h1 {
+    font-size: 3em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url('images/slide03.jpg'); 
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url('images/students2.jpg');
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url('images/5a1.jpg');
+}
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: none;
+    margin: 20px auto;
+}
+/*css of first csrousel slide end here*/
+
+
+
+
+
+/* 3rd carousel client feedback start here*/
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+.item blockquote img {
+    margin-bottom: 10px;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }   
+}
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) {   
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/*3rd carousel feedback ends here*/
+
+
+
+
+
+
+
+
+
+
