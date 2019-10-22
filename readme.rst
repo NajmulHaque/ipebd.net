@@ -1,70 +1,25 @@
 ###################
-What is CodeIgniter
+What is IPE
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+International Placement for Education (IPE) is a leading Education Consulting firm representing groups of universities and colleges in Australia, UK, Canada and Malaysia and providing one stop solution for Counselling, Enrolment and Visa assistance. IPE works in collaboration with HIGHLY REPUTED GROUPS one of the leading education company in the world, which enables us to provide you with the best options in higher education.
 
-*******************
-Release Information
-*******************
+With IPE, you can choose from an intensive list of degrees and courses, from more than 40 different renowned institutions around the world. IPE can help you choose a university that perfectly matches your career goals, tuition affordability and geographical comfort.
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+***********
+WHAT IPE DO
+***********
 
-**************************
-Changelog and New Features
-**************************
+IPE works in collaboration with highly reputed groups one of the leading education company in the world, which enables us to provide you with the best options in higher education
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+***************
+User Interface
+***************
 
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community IRC <https://webchat.freenode.net/?channels=%23codeigniter>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+  `Live Preview <https://www.ipebd.net>`_
 
 ***************
 Acknowledgement
 ***************
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+I would like to thank Tanvir Hasan brother and `AntTech <http://anttech.com.bd/>`_ for giving me opportunity to work in this projct.
