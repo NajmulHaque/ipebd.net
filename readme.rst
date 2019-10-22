@@ -16,7 +16,7 @@ IPE works in collaboration with highly reputed groups one of the leading educati
 User Interface
 ***************
 
-  `Live Preview <https://www.ipebd.net>`_
+  `Live Preview <http://www.ipebd.net>`_
 
 ***************
 Acknowledgement
